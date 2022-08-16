@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+</head>
+<body>
+ <script>
+
+        var D = prompt("Enter your date of birth")
+        var M = prompt("Enter your month of birth")
+        function HBD(D,M){
+    if(new Date().getDate()==D && new Date().getMonth()+1== M)
+    {
+    console.log("Happy Birthday ")
+    }
+    else
+    {
+    console.log("Today is not your Birthday..!! ")
+    }
+}
+HBD(D,M)
+</script>
+</body>
+</html>

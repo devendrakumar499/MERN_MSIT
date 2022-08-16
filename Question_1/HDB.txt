@@ -1,0 +1,2 @@
+Create a Function to Wish a User Happy Birthday, Ask User Date and Month and if it match with today data and month wish him/her
+Hint: prompt function for user input.
